@@ -30,6 +30,7 @@ Follow these steps to set up and run the project on your local machine:
 1.  **Clone the Repository:**
     ```bash
     git clone https://github.com/x0x-Lucifer-x0x/Weather_Classification_Using_EfficientNetV2.git
+    cd Weather_Classification_Using_EfficientNetV2
     ```
 2.  **Install Dependencies:** Ensure you have Python 3.7+ installed. Install the required packages using pip:
     ```bash
