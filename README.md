@@ -38,7 +38,7 @@ Follow these steps to set up and run the project on your local machine:
 3.  **Download Dataset:**
     Download the [Weather Image Recognition dataset](https://www.kaggle.com/datasets/jehanbhathena/weather-dataset) from Kaggle and extract its contents into a directory of your choice (e.g., `data/weather_dataset`).
 4.  **Download Trained Model Weights:**
-    Download the pre-trained model weights (`efficientnet_v2_s_weather.pth`) from the [Download Trained Model](https://www.google.com/search?q=%23download-trained-model) section below. Save this file in your project root directory or update the `model_path` variable in your script to its location.
+    Download the pre-trained model weights (`efficientnet_v2_s_weather.pth`) from the [Download Trained Model](efficientnet_v2_s_weather.pth) section below. Save this file in your project root directory or update the `model_path` variable in your script to its location.
 5.  **Configure Paths:**
     Update the `data_dir` and `model_path` variables in your Python scripts (e.g., `train.py`, `inference.py`) to point to the correct locations of your dataset and model weights.
 
@@ -73,14 +73,14 @@ For a cloud-based setup, use Google Colab:
 
 You can download the pre-trained `efficientnet_v2_s_weather.pth` model weights from the link below:
 
-  * [Download EfficientNetV2-S Weather Model Weights (efficientnet\_v2\_s\_weather.pth)](https://www.google.com/search?q=https://your-link-here/model.pth)
+  * [Download EfficientNetV2-S Weather Model Weights (efficientnet\_v2\_s\_weather.pth)](efficientnet_v2_s_weather.pth)
     *(**Note:** Please replace `https://your-link-here/model.pth` with the actual public download link for your `.pth` file.)*
 
 ### Accuracy Table
 
 | Model Name                      | Test Accuracy | Download Link                                        |
 | :------------------------------ | :------------ | :--------------------------------------------------- |
-| `efficientnet_v2_s_weather.pth` | 97.20%        | [Download](https://www.google.com/search?q=https://your-link-here/model.pth)         |
+| `efficientnet_v2_s_weather.pth` | 97.20%        | [Download](efficientnet_v2_s_weather.pth)         |
 
 ## Inference Example
 
